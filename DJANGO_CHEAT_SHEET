@@ -1,0 +1,35 @@
+Creating a New Project
+
+django-admin startproject projectname
+
+Add an App to a Project
+
+python3 manage.py startapp appname
+
+Starting the server
+
+python3 manage.py runserver
+
+Creating Migrations
+
+python3 manage.py makemigrations
+
+Migrate the Database
+
+python3 manage.py migrate
+
+Creating a Super User for the Admin Panel
+
+python3 manage.py createsuperuser
+
+Collecting Static Files Into One Folder
+
+python3 manage.py collectstatic
+
+###############################################################
+
+wilfy@wilfy:~$ django-admin startproject password_generator #startting project
+#при этом создается папка с проектными файлами,далее ее открываем в PyCharm
+
+далее из директории проекта стартуем сервер.
+wilfy@wilfy:~/password_generator$ python3.8 manage.py runserver
